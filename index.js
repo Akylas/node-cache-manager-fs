@@ -12,7 +12,7 @@ var async = require('async');
 var extend = require('extend');
 var uuid = require('uuid');
 var zlib = require('zlib');
-const gzip = zlib.createGzip();
+var gzip = zlib.createGzip();
 
 /**
  * Export 'DiskStore'
